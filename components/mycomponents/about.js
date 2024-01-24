@@ -34,11 +34,11 @@ export default function About() {
                 <div className="flex flex-col items-center w-full md:flex-row md:w-1/2 ">
 
 
-                    <div className="max-w-lg md:mx-12 md:order-2 ">
+                    <div className="max-w-lg mb-8 md:mx-12 md:order-2 ">
                         <h1 className="text-3xl py-8 font-extralight tracking-wide text-white dark:text-white md:text-4xl">
                             <span className="typed-element bg-slate-100 text-black"></span>
                         </h1>
-                        <p className="tracking-wide text-white text-2xl dark:text-white md:text-2xl">I am Meta Certified Front-End Developer currently pursuing Software Engineering from NUST SEECS</p>
+                        <p className="tracking-wide text-white text-2xl dark:text-white md:text-2xl">I am Meta Certified Front-End-Developer currently pursuing Software Engineering from NUST SEECS</p>
                         <div className="mt-6">
                             <Button className='transition duration-300 ease-in-out bg-black text-white hover:bg-white hover:text-black'>Download CV</Button>
                         </div>
