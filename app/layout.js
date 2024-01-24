@@ -1,8 +1,9 @@
-import { Inter as FontSans } from "next/font/google";
+import { Nanum_Gothic_Coding } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils"
 
-export const fontSans = FontSans({
+export const fontSans = Nanum_Gothic_Coding({
+  weight: '400', 
   subsets: ["latin"],
   variable: "--font-sans",
 }) 
