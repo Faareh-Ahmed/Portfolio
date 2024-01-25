@@ -1,19 +1,23 @@
 'use client'
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
-
+import Work from '@/public/lotties/opentowork.json'
+import Lottie from 'lottie-react'
 export default function Contact() {
 
 
     return (
         <>
-            <div className="flex  p-12 bg-lime-400">
-                
-                <div className="w-full max-w-[550px] bg-red-400">
+            <div className="m-auto text-center lg:w-full bg-foreground">
+                <h2 className="text-2xl text-background font-bold md:text-4xl">CONTACT ME</h2>
+            </div>
+            <div className="flex  p-12 bg-foreground">
+
+                <div className="w-full max-w-[550px] ">
                     <form>
-                        
+
                         <div className="mb-5">
-                            <label  htmlFor="email"  className="mb-3 block text-base font-medium text-[#07074D]">
+                            <label htmlFor="email" className="mb-3 block text-base font-medium text-background">
                                 Email Address
                             </label>
                             <input
@@ -25,7 +29,7 @@ export default function Contact() {
                             />
                         </div>
                         <div className="mb-5">
-                            <label htmlFor="subject" className="mb-3 block text-base font-medium text-[#07074D]">
+                            <label htmlFor="subject" className="mb-3 block text-base font-medium text-background">
                                 Subject
                             </label>
                             <input
@@ -37,7 +41,7 @@ export default function Contact() {
                             />
                         </div>
                         <div className="mb-5">
-                            <label htmlFor="message" className="mb-3 block text-base font-medium text-[#07074D]">
+                            <label htmlFor="message" className="mb-3 block text-base font-medium text-background">
                                 Message
                             </label>
                             <textarea
@@ -49,12 +53,17 @@ export default function Contact() {
                             ></textarea>
                         </div>
                         <div>
-                            <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none">
+                            <button className="hover:shadow-form rounded-md bg-background py-3 px-8 text-base font-semibold text-foreground outline-none">
                                 Submit
                             </button>
                         </div>
+
+
                     </form>
                 </div>
+                {/* <div className=" bg-slate-400 ml-16">
+                    <Lottie animationData={Work}/>
+                </div> */}
             </div>
         </>
     );

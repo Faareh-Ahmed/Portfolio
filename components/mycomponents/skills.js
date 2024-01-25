@@ -9,28 +9,25 @@ import Nextjs from '@/assets/Nextjs.png'
 import Nodejs from '@/assets/Nodejs.png'
 import Python from '@/assets/Python.png'
 import Tailwind from '@/assets/Tailwind.png'
-import Expressjs from '@/assets/Expressjs.png'
 
 export default function Skills() {
 
 
     return (
         <>
-            <div className="py-16 bg-orange-300">
+            <div className="py-16 bg-foreground">
                 <div className="container m-auto px-6 space-y-8 md:px-12 lg:px-56">
                     <div className="m-auto text-center lg:w-7/12">
-                        <h2 className="text-2xl text-gray-700 font-bold md:text-4xl">SKILLS</h2>
+                        <h2 className="text-2xl text-background font-bold md:text-4xl">SKILLS</h2>
                     </div>
                     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
                         <div className="p-4">
                             <Image src={Reactjs} className="w-32" alt="React" />
                         </div>
                         <div className="p-4">
-                            <Image src={Nextjs} className="w-32" alt="" />
+                            <Image src={Nextjs} className="w-24" alt="" />
                         </div>
-                        <div className="p-4">
-                            <Image src={Expressjs} className="w-52 " alt="" />
-                        </div>
+                        
                         <div className="p-4">
                             <Image src={Directus} className=" w-52" alt="" />
                         </div>

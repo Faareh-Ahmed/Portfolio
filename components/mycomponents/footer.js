@@ -10,14 +10,14 @@ export default function Footer() {
 
     return (
         <>
-            <footer className="bg-gradient-to-r bg-white">
+            <footer className="bg-gradient-to-r bg-background">
                 <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                         <div>
-                            <p className="max-w-xs mt-4 text-sm text-gray-600">
+                            <p className="max-w-xs mt-4 text-sm text-foreground">
                                 Follow Me on these Platforms
                             </p>
-                            <div className="flex mt-8 space-x-6 text-gray-600">
+                            <div className="flex mt-8 space-x-6 text-foreground">
 
                                 <Avatar>
                                     <AvatarImage src='/img/github.png' />
@@ -47,7 +47,7 @@ export default function Footer() {
                                 <p className=" font-semibold">
                                     Links
                                 </p>
-                                <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                                <nav className="flex flex-col mt-4 space-y-2 text-sm text-foreground">
                                     <a className="hover:opacity-75" href> About </a>
                                     <a className="hover:opacity-75" href> Skills</a>
                                     <a className="hover:opacity-75" href> Projects </a>
@@ -58,7 +58,7 @@ export default function Footer() {
                                 <p className=" font-semibold">
                                     Services
                                 </p>
-                                <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+                                <nav className="flex flex-col mt-4 space-y-2 text-sm text-foreground">
                                     <a className="hover:opacity-75" > Front End Development </a>
                                     <a className="hover:opacity-75" > REACTJS Developer </a>
                                     <a className="hover:opacity-75" > NEXTJS Developer </a>
@@ -70,7 +70,7 @@ export default function Footer() {
                            
                         </div>
                     </div>
-                    <p className="mt-8 text-xs text-gray-800">
+                    <p className="mt-8 text-xs text-foreground font-semibold">
                         © FAAREH AHMED
                     </p>
                 </div>

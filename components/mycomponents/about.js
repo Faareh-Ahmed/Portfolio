@@ -11,7 +11,7 @@ export default function About() {
     useEffect(() => {
         // Define options for the typing animation
         const options = {
-            strings: ['Front End Developer', 'NextJS Developer', 'React Developer'],
+            strings: ['Front End Developer', 'NextJS Developer', 'ReactJS Developer'],
             typeSpeed: 40,
             loop: true,
             loopCount: Infinity,
@@ -30,17 +30,21 @@ export default function About() {
 
     return (
         <>
-            <div className=" h-screen flex flex-col-reverse items-center  px-6  mx-auto space-y-6  md:flex-row md:items-center md:space-x-6 bg-gray-800">
+            <div className="m-auto text-center lg:w-full bg-foreground">
+                <h2 className="text-2xl text-background font-bold md:text-4xl py-4">About</h2>
+            </div>
+            <div className=" h-screen flex flex-col-reverse items-center  px-6  mx-auto   md:flex-row md:items-center md:space-x-6 bg-foreground">
+
                 <div className="flex flex-col items-center w-full md:flex-row md:w-1/2 ">
 
 
                     <div className="max-w-lg mb-8 md:mx-12 md:order-2 ">
                         <h1 className="text-3xl py-8 font-extralight tracking-wide text-white dark:text-white md:text-4xl">
-                            <span className="typed-element bg-slate-100 text-black"></span>
+                            <span className="typed-element  text-background"></span>
                         </h1>
-                        <p className="tracking-wide text-white text-2xl dark:text-white md:text-2xl">I am Meta Certified Front-End-Developer currently pursuing Software Engineering from NUST SEECS</p>
+                        <p className="tracking-wide text-background text-2xl  md:text-2xl">I am Meta Certified Front-End-Developer currently pursuing Software Engineering from NUST SEECS</p>
                         <div className="mt-6">
-                            <Button className='transition duration-300 ease-in-out bg-black text-white hover:bg-white hover:text-black'>Download CV</Button>
+                            <Button className='transition duration-300 ease-in-out bg-background text-foreground hover:bg-white hover:text-black'>Download CV</Button>
                         </div>
                     </div>
                 </div>
