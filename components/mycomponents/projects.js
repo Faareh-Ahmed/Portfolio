@@ -9,7 +9,11 @@ export default function Projects() {
 
     return (
         <>
-            <section className="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-blue-500">
+            <section className=" lg:pt-[12px] pb-10 lg:pb-20 bg-blue-500">
+                <div className="pb-10 pt-10 m-auto text-center lg:w-7/12 bg-neutral-500">
+                    <h2 className="text-2xl text-gray-700 font-bold md:text-4xl">PROJECTS</h2>
+                </div>
+
                 <div className="container bg-orange-300">
                     <div className="flex flex-wrap -mx-4 bg-red-400">
                         <div className="w-full md:w-1/2 xl:w-1/3 px-4 bg-yellow-500 mb-8">
@@ -17,7 +21,7 @@ export default function Projects() {
                                 <Image
                                     src={Flags}
                                     alt="image"
-                                    className="w-full h-1/2"
+                                    className="w-full h-1/3"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                     <h3>
@@ -38,7 +42,7 @@ export default function Projects() {
                                 <Image
                                     src={MediCare}
                                     alt="image"
-                                    className="w-full h-1/2"
+                                    className="w-full h-1/3"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                     <h3>
@@ -59,7 +63,7 @@ export default function Projects() {
                                 <Image
                                     src={LittleLemon2}
                                     alt="image"
-                                    className="w-full h-1/2"
+                                    className="w-full h-1/3"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                                     <h3>
