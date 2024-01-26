@@ -20,10 +20,10 @@ export default function Navbar() {
                 </div>
                 <nav className={`flex-col flex-grow pb-4 md:pb-0 ${open ? 'flex' : 'hidden'} md:flex md:justify-end md:flex-row`}>
 
-                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-foreground " href="#">ABOUT</a>
-                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-foreground " href="#">SKILLS</a>
-                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-foreground " href="#">PROJECTS</a>
-                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-foreground " href="#">CONTACT</a>
+                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-primary " href="#">ABOUT</a>
+                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-primary " href="#">SKILLS</a>
+                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-primary " href="#">PROJECTS</a>
+                    <a className="px-4 py-2 mt-2 text-sm font-semibold text-foreground rounded-lg  md:mt-0 hover:text-background  hover:bg-primary " href="#">CONTACT</a>
                 </nav>
             </div>
         </div>

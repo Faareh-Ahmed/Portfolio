@@ -3,6 +3,7 @@ import Image from "next/image";
 import Flags from "@/assets/Flags.jpg"
 import MediCare from "@/assets/MediCare.jpg"
 import LittleLemon2 from "@/assets/LittleLemon2.jpg"
+import { Button } from "../ui/button";
 
 export default function Projects() {
 
@@ -31,9 +32,9 @@ export default function Projects() {
                                     </h3>
                                     <p className="text-base text-body-color leading-relaxed mb-7">
                                         Discover the world with 'The Flags,' a ReactJS web app. Immerse yourself in diverse country details powered by a RESTful API and Axios. Explore demographics, languages, and currencies in real time. Tailor your journey using region filters and search options                                    </p>
-                                    <a href="javascript:void(0)" className=" inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-base text-background bg-foreground  font-medium hover:border-primary hover:bg-primary hover:text-white transition ">
-                                        View Details
-                                    </a>
+                                    <Button href="javascript:void(0)" className=" inline-block py-2 px-7 border border-ring rounded-full text-background bg-primary  font-medium  transition ">
+                                        View on GitHub
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -52,9 +53,9 @@ export default function Projects() {
                                     </h3>
                                     <p className="text-base text-body-color leading-relaxed mb-7">
                                         Developed a comprehensive Hospital Management System leveraging the MERN Stack. This system is designed to streamline and simplify hospital operations, focusing on efficient staff management, seamless patient registration, and appointment scheduling.                                    </p>
-                                    <a href="javascript:void(0)" className=" inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-background bg-foreground  font-medium hover:border-primary hover:bg-primary hover:text-white transition ">
-                                        View Details
-                                    </a>
+                                    <Button href="javascript:void(0)" className=" inline-block py-2 px-7 border border-ring rounded-full text-background bg-primary  font-medium  transition ">
+                                        View on GitHub
+                                    </Button>
                                 </div>
                             </div>
                         </div>
@@ -73,9 +74,9 @@ export default function Projects() {
                                     </h3>
                                     <p className="text-base text-body-color leading-relaxed mb-7">
                                         Developed an engaging and interactive front end for a restaurant website using React. This project showcases my proficiency in creating dynamic and visually appealing user interfaces, providing a seamless and delightful user experience.                                    </p>
-                                    <a href="javascript:void(0)" className=" inline-block py-2 px-7 border border-[#E5E7EB] rounded-full text-background bg-foreground  font-medium hover:border-primary hover:bg-primary hover:text-white transition ">
-                                        View Details
-                                    </a>
+                                    <Button href="javascript:void(0)" className=" inline-block py-2 px-7 border border-ring rounded-full text-background bg-primary  font-medium  transition ">
+                                        View on GitHub
+                                    </Button>
                                 </div>
                             </div>
                         </div>

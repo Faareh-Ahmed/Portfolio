@@ -44,7 +44,7 @@ export default function About() {
                         </h1>
                         <p className="tracking-wide text-background text-2xl  md:text-2xl">I am Meta Certified Front-End-Developer currently pursuing Software Engineering from NUST SEECS</p>
                         <div className="mt-6">
-                            <Button className='transition duration-300 ease-in-out bg-background text-foreground hover:bg-white hover:text-black'>Download CV</Button>
+                            <Button className='transition duration-300 ease-in-out bg-primary text-background  '>Download CV</Button>
                         </div>
                     </div>
                 </div>

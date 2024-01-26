@@ -53,9 +53,9 @@ export default function Contact() {
                             ></textarea>
                         </div>
                         <div>
-                            <button className="hover:shadow-form rounded-md bg-background py-3 px-8 text-base font-semibold text-foreground outline-none">
+                            <Button className="hover:shadow-form rounded-md bg-primary py-3 px-8 text-base font-semibold text-background outline-none ">
                                 Submit
-                            </button>
+                            </Button>
                         </div>
 
 

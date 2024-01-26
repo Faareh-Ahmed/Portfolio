@@ -19,26 +19,33 @@ export default function Footer() {
                             </p>
                             <div className="flex mt-8 space-x-6 text-foreground">
 
-                                <Avatar>
-                                    <AvatarImage src='/img/github.png' />
-                                    <AvatarFallback>CN</AvatarFallback>
-                                </Avatar>
+                                <a href="https://github.com/Faareh-Ahmed" target="_blank" rel="noopener noreferrer">
+                                    <Avatar className='hover:scale-105'>
+                                        <AvatarImage src='/img/github.png' />
+                                        <AvatarFallback>CN</AvatarFallback>
+                                    </Avatar>
+                                </a>
 
+                                <a href="https://www.linkedin.com/in/faareh-ahmed/" target="_blank" rel="noopener noreferrer">
+                                    <Avatar className='hover:scale-105'>
+                                        <AvatarImage src='/img/Linkedin.png' />
+                                        <AvatarFallback>CN</AvatarFallback>
+                                    </Avatar>
+                                </a>
 
-                                <Avatar>
-                                    <AvatarImage src='/img/Linkedin.png' />
-                                    <AvatarFallback>CN</AvatarFallback>
-                                </Avatar>
+                                <a href="https://leetcode.com/faareh_ahmed/" target="_blank" rel="noopener noreferrer">
+                                    <Avatar className='hover:scale-105'>
+                                        <AvatarImage src='/img/leetcode.png' />
+                                        <AvatarFallback>CN</AvatarFallback>
+                                    </Avatar>
+                                </a>
 
-                                <Avatar>
-                                    <AvatarImage src='/img/leetcode.png' />
-                                    <AvatarFallback>CN</AvatarFallback>
-                                </Avatar>
-
-                                <Avatar>
-                                    <AvatarImage src='/img/insta.png' />
-                                    <AvatarFallback>CN</AvatarFallback>
-                                </Avatar>
+                                <a href="https://www.instagram.com/faareh_a6/" target="_blank" rel="noopener noreferrer">
+                                    <Avatar className='hover:scale-105'>
+                                        <AvatarImage src='/img/insta.png' />
+                                        <AvatarFallback>CN</AvatarFallback>
+                                    </Avatar>
+                                </a>
 
                             </div>
                         </div>
@@ -66,8 +73,8 @@ export default function Footer() {
                                     <a className="hover:opacity-75" > Online Tutoring </a>
                                 </nav>
                             </div>
-                            
-                           
+
+
                         </div>
                     </div>
                     <p className="mt-8 text-xs text-foreground font-semibold">
