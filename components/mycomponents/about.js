@@ -49,8 +49,8 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-center w-72 h-72 md:w-2/6 md:h-4/6 ">
-                    <Image className="object-cover w-full h-full max-w-2xl rounded-full" alt="apple watch photo" src={FaarehPic} />
+                <div className="flex items-center justify-center w-72 h-72 md:w-2/6 md:h-2/5  xl:w-2/6 xl:h-4/6 2xl:w-3/6 2xl:h-5/6">
+                    <Image className="object-cover w-full h-full max-w-2xl rounded-full md:rounded-none" alt="apple watch photo" src={FaarehPic} />
                 </div>
             </div>
         </>
