@@ -25,29 +25,29 @@ export default function Skills() {
                             <Image src={Reactjs} className="w-32" alt="React" />
                         </div>
                         <div className="p-4">
-                            <Image src={Nextjs} className="w-24" alt="" />
+                            <Image src={Nextjs} className="w-24" alt="Nextjs" />
                         </div>
                         
                         <div className="p-4">
-                            <Image src={Directus} className=" w-52" alt="" />
+                            <Image src={Directus} className=" w-52" alt="Directus" />
                         </div>
                         <div className="p-4">
-                            <Image src={Nodejs} className="w-32 " alt="" />
+                            <Image src={Nodejs} className="w-32 " alt="NodeJs" />
                         </div>
                         <div className="p-4">
-                            <Image src={Python} className="w-24" alt="" />
+                            <Image src={Python} className="w-24" alt="Python" />
                         </div>
                         <div className="p-4">
-                            <Image src={Cpp} className="w-24" alt="" />
+                            <Image src={Cpp} className="w-24" alt="Cpp" />
                         </div>
                         <div className="p-4">
-                            <Image src={Mysql} className="w-32" alt="" />
+                            <Image src={Mysql} className="w-32" alt="Mysql" />
                         </div>
                         <div className="p-4">
-                            <Image src={Git} className="w-32" alt="" />
+                            <Image src={Git} className="w-32" alt="Git" />
                         </div>
                         <div className="p-4">
-                            <Image src={Tailwind} className="w-52" alt="" />
+                            <Image src={Tailwind} className="w-52" alt="Tailwind" />
                         </div>
                     </div>
                 </div>

@@ -55,10 +55,10 @@ export default function Footer() {
                                     Links
                                 </p>
                                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-foreground">
-                                    <a className="hover:opacity-75" href> About </a>
-                                    <a className="hover:opacity-75" href> Skills</a>
-                                    <a className="hover:opacity-75" href> Projects </a>
-                                    <a className="hover:opacity-75" href> Contact </a>
+                                    <a className="hover:opacity-75" href="/"> About </a>
+                                    <a className="hover:opacity-75" href="/"> Skills</a>
+                                    <a className="hover:opacity-75" href="/"> Projects </a>
+                                    <a className="hover:opacity-75" href="/"> Contact </a>
                                 </nav>
                             </div>
                             <div>
