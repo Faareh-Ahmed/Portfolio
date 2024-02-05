@@ -8,6 +8,7 @@ export default function Contact() {
 
     return (
         <>
+        <section id="contacts">
             <div className="m-auto text-center lg:w-full bg-foreground">
                 <h2 className="text-2xl text-background font-bold md:text-4xl">CONTACT ME</h2>
             </div>
@@ -68,6 +69,7 @@ export default function Contact() {
                     <Lottie animationData={Work}/>
                 </div> */}
             </div>
+            </section>
         </>
     );
 };

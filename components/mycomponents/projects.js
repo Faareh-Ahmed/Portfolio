@@ -10,7 +10,7 @@ export default function Projects() {
 
     return (
         <>
-            <section className=" lg:pt-[12px] pb-10 lg:pb-20 bg-foreground">
+            <section id="projects" className=" lg:pt-[12px] pb-10 lg:pb-20 bg-foreground">
                 <div className="pb-10 pt-10 m-auto text-center lg:w-7/12 ">
                     <h2 className="text-2xl text-background font-bold md:text-4xl">PROJECTS</h2>
                 </div>

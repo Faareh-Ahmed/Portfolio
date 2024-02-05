@@ -15,7 +15,7 @@ export default function Skills() {
 
     return (
         <>
-            <div className="py-16 bg-foreground">
+            <div id="skills" className="py-16 bg-foreground">
                 <div className="container m-auto px-6 space-y-8 md:px-12 lg:px-56">
                     <div className="m-auto text-center lg:w-7/12">
                         <h2 className="text-2xl text-background font-bold md:text-4xl">SKILLS</h2>
