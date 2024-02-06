@@ -4,7 +4,7 @@ import Reactjs from '@/assets/reactjs.png'
 import Directus from '@/assets/Directus.png'
 import Git from '@/assets/Git.png'
 import Cpp from '@/assets/Cpp.png'
-import Mysql from '@/assets/Mysql.png'
+import MySql from '@/assets/Mysql.png'
 import Nextjs from '@/assets/Nextjs.png'
 import Nodejs from '@/assets/Nodejs.png'
 import Python from '@/assets/Python.png'
@@ -41,7 +41,7 @@ export default function Skills() {
                             <Image src={Cpp} className="w-24" alt="Cpp" />
                         </div>
                         <div className="p-4">
-                            <Image src={Mysql} className="w-32" alt="Mysql" />
+                            <Image src={MySql} className="w-32" alt="Mysql" />
                         </div>
                         <div className="p-4">
                             <Image src={Git} className="w-32" alt="Git" />
