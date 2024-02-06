@@ -1,9 +1,8 @@
 'use client'
-import { Button } from "@/components/ui/button"
-import { Textarea } from "@/components/ui/textarea"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Link } from 'react-scroll/modules'
 import Python from '@/assets/Python.png'
+import Image from "next/image"
 
 
 export default function Footer() {
@@ -22,8 +21,8 @@ export default function Footer() {
 
                                 <a href="mailto:faarehahmed@email.com" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
-                                        <AvatarImage src={Python} />
-                                        <AvatarFallback>CN</AvatarFallback>
+                                        {Python && <Image src={Python} alt='Some alt text'  />}
+                                        {!Python && <AvatarFallback>John Doe</AvatarFallback>}
                                     </Avatar>
                                 </a>
 
