@@ -4,7 +4,10 @@ import FaarehPic from '@/assets/faarehpic.jpg';
 import { Button } from "../ui/button";
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
-
+import { saveAs } from 'file-saver';
+// import { Document, Page, pdfjs } from 'react-pdf';
+// import saveAs from 'file-saver';
+// import {Document, Page, pdfjs} from 'react-pdf'
 
 export default function About() {
 
@@ -28,6 +31,19 @@ export default function About() {
     }, []); // Empty dependency array ensures the effect runs only once on mount
 
 
+    const downloadCV = async () => {
+        try {
+            // Fetch the PDF file 
+            const response = await fetch('/Faareh_Ahmed_resume.pdf');
+            const blob = await response.blob();
+
+            // Use FileSaver to save the blob as a file
+            saveAs(blob, 'Faareh_Ahmed_resume.pdf');
+        } catch (error) {
+            console.error('Error downloading CV:', error);
+        }
+    };
+
     return (
         <>
             <section id="about">
@@ -43,10 +59,10 @@ export default function About() {
                             <h1 className="text-3xl py-8 font-extralight tracking-wide text-white dark:text-white md:text-4xl">
                                 <span className="typed-element  text-background"></span>
                             </h1>
-                            <p className="tracking-wide text-background text-2xl  md:text-2xl">Enthusiastic developer with a fervent passion for solving real-world problems. I am committed to staying abreast of the latest advancements in the field, ensuring that my skill set is always at the forefront of innovation.
+                            <p className="tracking-wide text-background text-2xl  md:text-2xl">Student of Software Engineering from SEECS NUST. Enthusiastic developer with a fervent passion for solving real-world problems. I am committed to staying abreast of the latest advancements in the field, ensuring that my skill set is always at the forefront of innovation.
                             </p>
-                            <div className="mt-6">
-                                <Button className='transition duration-300 ease-in-out bg-primary text-background  '>Download CV</Button>
+                            <div className="mt-6 flex justify-center items-center">
+                                <Button className='transition duration-300 ease-in-out bg-primary text-background w-32' onClick={downloadCV} >Download RESUME</Button>
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-
+import { Link } from 'react-scroll/modules'
 
 
 export default function Footer() {
@@ -18,6 +18,13 @@ export default function Footer() {
                                 Follow Me on these Platforms
                             </p>
                             <div className="flex mt-8 space-x-6 text-foreground">
+
+                                <a href="mailto:faarehahmed@email.com" target="_blank" rel="noopener noreferrer">
+                                    <Avatar className='hover:scale-105'>
+                                        <AvatarImage src='/img/email.png' />
+                                        <AvatarFallback>CN</AvatarFallback>
+                                    </Avatar>
+                                </a>
 
                                 <a href="https://github.com/Faareh-Ahmed" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
@@ -55,10 +62,46 @@ export default function Footer() {
                                     Links
                                 </p>
                                 <nav className="flex flex-col mt-4 space-y-2 text-sm text-foreground">
-                                    <a className="hover:opacity-75" href="/"> About </a>
-                                    <a className="hover:opacity-75" href="/"> Skills</a>
-                                    <a className="hover:opacity-75" href="/"> Projects </a>
-                                    <a className="hover:opacity-75" href="/"> Contact </a>
+
+                                    <Link activeClass="active"
+                                        to="about"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={50}
+                                        duration={500}
+                                        className="hover:opacity-75 hover:cursor-pointer"
+                                    >About
+                                    </Link>
+
+                                    <Link activeClass="skills"
+                                        to="contacts"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={50}
+                                        duration={500}
+                                        className="hover:opacity-75  hover:cursor-pointer"
+                                    > Skills
+                                    </Link>
+
+                                    <Link activeClass="active"
+                                        to="projects"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={50}
+                                        duration={500}
+                                        className="hover:opacity-75 hover:cursor-pointer"
+                                    > Projects
+                                    </Link>
+
+                                    <Link activeClass="active"
+                                        to="contacts"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={50}
+                                        duration={500}
+                                        className="hover:opacity-75 hover:cursor-pointer"
+                                    > Contact
+                                    </Link>
                                 </nav>
                             </div>
                             <div>
