@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Link } from 'react-scroll/modules'
+import Python from '@/assets/Python.png'
 
 
 export default function Footer() {
@@ -21,7 +22,7 @@ export default function Footer() {
 
                                 <a href="mailto:faarehahmed@email.com" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
-                                        <AvatarImage src='/img/email.png' />
+                                        <AvatarImage src={Python} />
                                         <AvatarFallback>CN</AvatarFallback>
                                     </Avatar>
                                 </a>
