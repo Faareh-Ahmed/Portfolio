@@ -1,9 +1,12 @@
 'use client'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Link } from 'react-scroll/modules'
-import Python from '@/assets/Python.png'
 import Image from "next/image"
-
+import Email from '@/assets/email.png'
+import Github from '@/assets/github.png'
+import Insta from '@/assets/insta.png'
+import Leetcode from '@/assets/leetcode.png'
+import Linkedin from '@/assets/Linkedin.png'
 
 export default function Footer() {
 
@@ -21,36 +24,36 @@ export default function Footer() {
 
                                 <a href="mailto:faarehahmed@email.com" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
-                                        {Python && <Image src={Python} alt='Some alt text'  />}
-                                        {!Python && <AvatarFallback>John Doe</AvatarFallback>}
+                                        {Email && <Image src={Email} alt='Email'  />}
+                                        {!Email && <AvatarFallback>Email</AvatarFallback>}
                                     </Avatar>
                                 </a>
 
                                 <a href="https://github.com/Faareh-Ahmed" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
-                                        <AvatarImage src='/img/github.png' />
-                                        <AvatarFallback>CN</AvatarFallback>
+                                    {Github && <Image src={Github} alt='Github'  />}
+                                        {!Github && <AvatarFallback>Github</AvatarFallback>}
                                     </Avatar>
                                 </a>
 
                                 <a href="https://www.linkedin.com/in/faareh-ahmed/" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
-                                        <AvatarImage src='/img/Linkedin.png' />
-                                        <AvatarFallback>CN</AvatarFallback>
+                                    {Linkedin && <Image src={Linkedin} alt='Linkedin'  />}
+                                        {!Linkedin && <AvatarFallback>Linkedin</AvatarFallback>}
                                     </Avatar>
                                 </a>
 
                                 <a href="https://leetcode.com/faareh_ahmed/" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
-                                        <AvatarImage src='/img/leetcode.png' />
-                                        <AvatarFallback>CN</AvatarFallback>
+                                    {Leetcode && <Image src={Leetcode} alt='Leetcode'  />}
+                                        {!Leetcode && <AvatarFallback>Leetcode</AvatarFallback>}
                                     </Avatar>
                                 </a>
 
                                 <a href="https://www.instagram.com/faareh_a6/" target="_blank" rel="noopener noreferrer">
                                     <Avatar className='hover:scale-105'>
-                                        <AvatarImage src='/img/insta.png' />
-                                        <AvatarFallback>CN</AvatarFallback>
+                                    {Insta && <Image src={Insta} alt='Insta'  />}
+                                        {!Insta && <AvatarFallback>Insta</AvatarFallback>}
                                     </Avatar>
                                 </a>
 
